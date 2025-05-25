@@ -23,18 +23,26 @@ export const Contact: React.FC = () => {
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-
-    // Simulate submission
+    
+    // Simulate form submission
     setTimeout(() => {
       setIsSubmitting(false);
       setSubmitMessage({
         type: 'success',
         text: 'Thank you! Your message has been sent successfully.'
       });
-
-      setFormData({ name: '', email: '', message: '' });
-
-      setTimeout(() => setSubmitMessage(null), 5000);
+      
+      // Reset form
+      setFormData({
+        name: '',
+        email: '',
+        message: ''
+      });
+      
+      // Clear message after 5 seconds
+      setTimeout(() => {
+        setSubmitMessage(null);
+      }, 5000);
     }, 1500);
   };
 
