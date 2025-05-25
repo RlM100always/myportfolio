@@ -1,11 +1,12 @@
-@tailwind base;
-@tailwind components;
-@tailwind utilities;
-
-/* Import fonts */
+/* ✅ Import fonts and external CSS FIRST */
 @import url('https://fonts.googleapis.com/css2?family=Anton&family=Noto+Serif:ital,wght@0,100..900;1,100..900&family=Roboto+Slab:wght@100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
 @import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css');
+
+/* ✅ Tailwind base styles NEXT */
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
 
 /* Custom animations */
 @keyframes glow {

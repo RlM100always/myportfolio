@@ -23,26 +23,18 @@ export const Contact: React.FC = () => {
   const handleSubmit = (e: FormEvent) => {
     e.preventDefault();
     setIsSubmitting(true);
-    
-    // Simulate form submission
+
+    // Simulate submission
     setTimeout(() => {
       setIsSubmitting(false);
       setSubmitMessage({
         type: 'success',
         text: 'Thank you! Your message has been sent successfully.'
       });
-      
-      // Reset form
-      setFormData({
-        name: '',
-        email: '',
-        message: ''
-      });
-      
-      // Clear message after 5 seconds
-      setTimeout(() => {
-        setSubmitMessage(null);
-      }, 5000);
+
+      setFormData({ name: '', email: '', message: '' });
+
+      setTimeout(() => setSubmitMessage(null), 5000);
     }, 1500);
   };
 
@@ -90,14 +82,14 @@ export const Contact: React.FC = () => {
         <SectionTitle>Get In Touch</SectionTitle>
         
         <div className="grid grid-cols-1 lg:grid-cols-2 gap-12 mt-12">
+          {/* Contact Information */}
           <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-8 transform hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-300">
             <h3 className="text-2xl font-bold mb-6 text-white">Contact Information</h3>
-            
             <p className="text-gray-300 mb-8 leading-relaxed">
               Feel free to reach out to me through any of these platforms. I'm always open to discussing new projects, creative ideas, or opportunities to be part of your vision.
             </p>
             
-            <div className="space-y-6">
+            <div className="space-y-4 sm:space-y-2 sm:grid sm:grid-cols-1 lg:grid-cols-2 gap-4">
               {socialLinks.map(link => (
                 <a 
                   key={link.name} 
@@ -111,16 +103,15 @@ export const Contact: React.FC = () => {
                   </div>
                   <div>
                     <h4 className="font-medium text-white">{link.name}</h4>
-                    <p className="text-sm text-gray-400">{link.url.replace('mailto:', '').replace('https://wa.me/+', '+')}</p>
                   </div>
                 </a>
               ))}
             </div>
           </div>
-          
+
+          {/* Contact Form */}
           <div className="bg-slate-800/50 backdrop-blur-sm rounded-xl p-8 transform hover:shadow-lg hover:shadow-blue-500/10 transition-all duration-300">
             <h3 className="text-2xl font-bold mb-6 text-white">Send Me a Message</h3>
-            
             <form onSubmit={handleSubmit} className="space-y-6">
               <div>
                 <label htmlFor="name" className="block text-sm font-medium text-gray-300 mb-1">
@@ -137,7 +128,6 @@ export const Contact: React.FC = () => {
                   placeholder="John Doe"
                 />
               </div>
-              
               <div>
                 <label htmlFor="email" className="block text-sm font-medium text-gray-300 mb-1">
                   Your Email
@@ -153,7 +143,6 @@ export const Contact: React.FC = () => {
                   placeholder="john@example.com"
                 />
               </div>
-              
               <div>
                 <label htmlFor="message" className="block text-sm font-medium text-gray-300 mb-1">
                   Your Message
@@ -169,7 +158,6 @@ export const Contact: React.FC = () => {
                   placeholder="Hello, I'd like to talk about..."
                 ></textarea>
               </div>
-              
               <div>
                 <button
                   type="submit"
@@ -183,7 +171,6 @@ export const Contact: React.FC = () => {
                   {isSubmitting ? 'Sending...' : 'Send Message'}
                 </button>
               </div>
-              
               {submitMessage && (
                 <div className={`p-4 rounded-lg ${
                   submitMessage.type === 'success' 
