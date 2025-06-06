@@ -130,7 +130,7 @@ export const Projects: React.FC = () => {
                       className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 rounded-lg font-medium text-sm hover:from-yellow-300 hover:to-orange-300 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-yellow-400/25"
                     >
                       <ExternalLink size={16} />
-                      Live Demo
+                      Download
                     </a>
                   )}
                   
@@ -145,6 +145,20 @@ export const Projects: React.FC = () => {
                       Code
                     </a>
                   )}
+                  
+                  {project.videoLink && (
+                    <a 
+                      href={project.videoLink} 
+                      target="_blank" 
+                      rel="noopener noreferrer"
+                      className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 rounded-lg font-medium text-sm hover:from-yellow-300 hover:to-orange-300 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-yellow-400/25"
+                    >
+                      <ExternalLink size={16} />
+                      Video
+                    </a>
+                  )}
+                  
+
                 </div>
               </div>
             </div>
