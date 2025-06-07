@@ -121,45 +121,44 @@ export const Projects: React.FC = () => {
                   ))}
                 </div>
                 
-                <div className="flex gap-3">
-                  {project.liveLink && (
-                    <a 
-                      href={project.liveLink} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 rounded-lg font-medium text-sm hover:from-yellow-300 hover:to-orange-300 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-yellow-400/25"
-                    >
-                      <ExternalLink size={16} />
-                      Download
-                    </a>
-                  )}
-                  
-                  {project.githubLink && (
-                    <a 
-                      href={project.githubLink} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 px-4 py-2 bg-slate-700/70 text-white rounded-lg font-medium text-sm hover:bg-slate-600 transition-all duration-300 transform hover:scale-105 border border-slate-600 hover:border-slate-500"
-                    >
-                      <Github size={16} />
-                      Code
-                    </a>
-                  )}
-                  
-                  {project.videoLink && (
-                    <a 
-                      href={project.videoLink} 
-                      target="_blank" 
-                      rel="noopener noreferrer"
-                      className="flex items-center gap-2 px-4 py-2 bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 rounded-lg font-medium text-sm hover:from-yellow-300 hover:to-orange-300 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-yellow-400/25"
-                    >
-                      <ExternalLink size={16} />
-                      Video
-                    </a>
-                  )}
-                  
+               <div className="flex flex-col sm:flex-row gap-3 sm:gap-4 w-full">
+  {project.liveLink && (
+    <a 
+      href={project.liveLink} 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="flex items-center justify-center gap-2 w-full sm:w-auto px-4 py-2 text-xs sm:text-sm bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 rounded-lg font-medium hover:from-yellow-300 hover:to-orange-300 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-yellow-400/25"
+    >
+      <ExternalLink size={16} />
+      Download
+    </a>
+  )}
 
-                </div>
+  {project.githubLink && (
+    <a 
+      href={project.githubLink} 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="flex items-center justify-center gap-2 w-full sm:w-auto px-4 py-2 text-xs sm:text-sm bg-slate-700/70 text-white rounded-lg font-medium hover:bg-slate-600 transition-all duration-300 transform hover:scale-105 border border-slate-600 hover:border-slate-500"
+    >
+      <Github size={16} />
+      Code
+    </a>
+  )}
+
+  {project.videoLink && (
+    <a 
+      href={project.videoLink} 
+      target="_blank" 
+      rel="noopener noreferrer"
+      className="flex items-center justify-center gap-2 w-full sm:w-auto px-4 py-2 text-xs sm:text-sm bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 rounded-lg font-medium hover:from-yellow-300 hover:to-orange-300 transition-all duration-300 transform hover:scale-105 shadow-lg hover:shadow-yellow-400/25"
+    >
+      <ExternalLink size={16} />
+      Video
+    </a>
+  )}
+</div>
+
               </div>
             </div>
           ))}
