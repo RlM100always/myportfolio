@@ -41,10 +41,10 @@ export const Projects: React.FC = () => {
               <button
                 key={category.id}
                 onClick={() => setActiveCategory(category.id)}
-                className={`group flex items-center gap-2 px-4 py-2 rounded-full font-medium transition-all duration-300 transform hover:scale-105 ${
+                className={`group relative flex items-center gap-3 px-4 py-2 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 overflow-hidden ${
                   isActive
-                    ? 'bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 shadow-lg shadow-yellow-400/25'
-                    : 'bg-slate-800/50 text-gray-300 hover:bg-slate-700/70 hover:text-white border border-slate-600 hover:border-slate-500'
+                    ? 'bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 shadow-xl shadow-yellow-400/30'
+                    : 'bg-slate-800/60 text-gray-300 hover:bg-slate-700/80 hover:text-white border border-slate-600 hover:border-slate-500 backdrop-blur-sm'
                 }`}
               >
                 <IconComponent size={18} className={`transition-transform duration-300 ${isActive ? 'rotate-12' : 'group-hover:rotate-6'}`} />
