@@ -16,7 +16,7 @@ export const Header: React.FC = () => {
       }
 
       // Determine active section
-      const sections = ['hero', 'skills', 'projects', 'achievements', 'contact'];
+      const sections = ['hero', 'skills', 'projects', 'certificates', 'achievements', 'contact'];
       for (const section of sections.reverse()) {
         const element = document.getElementById(section);
         if (element) {
@@ -54,6 +54,7 @@ export const Header: React.FC = () => {
     { id: 'hero', label: 'About' },
     { id: 'skills', label: 'Skills' },
     { id: 'projects', label: 'Projects' },
+    { id: 'certificates', label: 'Certificates' },
     { id: 'achievements', label: 'Achievements' },
     { id: 'contact', label: 'Contact' }
   ];
