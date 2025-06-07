@@ -41,7 +41,7 @@ export const Projects: React.FC = () => {
               <button
                 key={category.id}
                 onClick={() => setActiveCategory(category.id)}
-                className={`group flex items-center gap-2 px-4 py-2 rounded-full font-medium transition-all duration-300 transform hover:scale-105 ${
+                className={`group flex items-center gap-2 px-3 py-1.5 rounded-2xl font-medium transition-all duration-300 transform hover:scale-105 ${
                   isActive
                     ? 'bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 shadow-lg shadow-yellow-400/25'
                     : 'bg-slate-800/50 text-gray-300 hover:bg-slate-700/70 hover:text-white border border-slate-600 hover:border-slate-500'
