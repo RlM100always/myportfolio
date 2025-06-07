@@ -281,7 +281,7 @@ export const Certificates: React.FC = () => {
   return (
     <section id="certificates" className="py-20 px-4 md:px-6 bg-slate-900/50 relative">
       <div className="container mx-auto">
-        <SectionTitle>Certificates</SectionTitle>
+        <SectionTitle>Certificates </SectionTitle>
         
         {/* Enhanced Category Filter */}
         <div className="flex flex-wrap justify-center gap-4 mb-16">
@@ -294,10 +294,10 @@ export const Certificates: React.FC = () => {
               <button
                 key={category.id}
                 onClick={() => setActiveCategory(category.id)}
-               className={`group flex items-center gap-2 px-3 py-1.5 rounded-2xl font-medium transition-all duration-300 transform hover:scale-105 ${
+                className={`group relative flex items-center gap-3 px-4 py-2 rounded-full font-semibold transition-all duration-300 transform hover:scale-105 overflow-hidden ${
                   isActive
-                    ? 'bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 shadow-lg shadow-yellow-400/25'
-                    : 'bg-slate-800/50 text-gray-300 hover:bg-slate-700/70 hover:text-white border border-slate-600 hover:border-slate-500'
+                    ? 'bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 shadow-xl shadow-yellow-400/30'
+                    : 'bg-slate-800/60 text-gray-300 hover:bg-slate-700/80 hover:text-white border border-slate-600 hover:border-slate-500 backdrop-blur-sm'
                 }`}
               >
                 {/* Background animation */}
