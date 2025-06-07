@@ -91,13 +91,14 @@ export const projectsData: Project[] = [
   },
   // Add some client projects
   {
-    title: 'Restaurant Management System',
-    shortDescription: 'Client Project',
-    description: 'A complete restaurant management system built for a local restaurant chain.',
-    image: 'https://images.pexels.com/photos/1267320/pexels-photo-1267320.jpeg?auto=compress&cs=tinysrgb&w=800',
-    technologies: ['Django', 'PostgreSQL', 'Bootstrap', 'jQuery'],
-    category: 'client',
-    liveLink: 'https://example-restaurant.com'
+    title: 'The Major Mario Game',
+    shortDescription: 'Client Major Mario Game Project',
+    description: 'Creating a Super Mario Bros-style game with Clara, where she collects leaves while avoiding and interacting with ghosts.',
+    image: 'https://github.com/RlM100always/Hisab/blob/main/Screenshot%202025-06-07%20211941.png?raw=true',
+    technologies: ['Java Programmig','Claraworld'],
+    category: 'game',
+    githubLink: 'https://github.com/RlM100always/clara-game',
+    videoLink :'https://youtu.be/PbrEfD0cK4o'
   }
 ];
 

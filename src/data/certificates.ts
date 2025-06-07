@@ -11,20 +11,20 @@ export interface Certificate {
 export const certificatesData: Certificate[] = [
   {
     title: 'Android Development Certification',
-    issuer: 'Google Developers',
-    date: 'December 2023',
-    description: 'Comprehensive certification covering Android app development, Kotlin programming, and modern Android architecture patterns.',
-    image: 'https://images.pexels.com/photos/270348/pexels-photo-270348.jpeg?auto=compress&cs=tinysrgb&w=800',
-    credentialUrl: 'https://developers.google.com/certification',
+    issuer: 'MSB Academy',
+    date: 'November 2023',
+    description: 'Comprehensive certification covering Android app development, Java programming, and OOP , Database.',
+    image: 'https://github.com/RlM100always/Hisab/blob/main/Screenshot%202025-06-07%20205114.png?raw=true',
+    credentialUrl: 'https://drive.google.com/file/d/1T_iNzXmhxUA62uBcrJ6v73UOtGt4ReSE/view',
     category: 'android'
   },
   {
-    title: 'Python Programming Certification',
-    issuer: 'Python Institute',
-    date: 'September 2023',
-    description: 'Advanced Python programming certification covering object-oriented programming, data structures, and web frameworks.',
-    image: 'https://images.pexels.com/photos/1181467/pexels-photo-1181467.jpeg?auto=compress&cs=tinysrgb&w=800',
-    credentialUrl: 'https://pythoninstitute.org',
+    title: 'ICPC Priliminary Contest',
+    issuer: 'ACM ICPC',
+    date: 'September 2022',
+    description:'Participated in the ACM ICPC preliminary contest , solving algorithmic and DSA problems under time constraints',
+    image: 'https://github.com/RlM100always/Hisab/blob/main/Screenshot%202025-06-07%20204732.png?raw=true',
+    credentialUrl: 'https://drive.google.com/file/d/1-v71yXX1Ug3CzU2h-K4BOsZS77qNCLDi/view',
     category: 'programming'
   },
   {
@@ -32,27 +32,27 @@ export const certificatesData: Certificate[] = [
     issuer: 'Hackerrank',
     date: '03 January 2025',
     description: 'Solve sql query problem in a limited time and get the certificate',
-    image: 'https://github.com/RlM100always/Hisab/blob/main/image.png?raw=true',
+    image: 'https://github.com/RlM100always/Hisab/blob/main/Screenshot%202025-06-07%20063409.png?raw=true',
     credentialUrl: 'https://www.hackerrank.com/certificates/a620aa5fee6f',
     category: 'database'
   },
   {
-    title: 'Git & Version Control',
-    issuer: 'GitHub',
-    date: 'July 2023',
-    description: 'Professional certification in Git version control, collaborative development, and GitHub workflows.',
-    image: 'https://images.pexels.com/photos/1181244/pexels-photo-1181244.jpeg?auto=compress&cs=tinysrgb&w=800',
-    credentialUrl: 'https://github.com/certification',
-    category: 'other'
+    title: 'Python (Basic) Certificate',
+    issuer: 'Ostad',
+    date: 'March 2025',
+    description: 'Learn the basic fundamentals of Python Programming',
+    image: 'https://github.com/RlM100always/Hisab/blob/main/Screenshot%202025-06-07%20210144.png?raw=true',
+    credentialUrl: 'https://drive.google.com/file/d/1slEg1DVVXSwevdoAXEH5vH8pKnHhtPYJ/view',
+    category: 'programming'//web others
   },
   {
-    title: 'React.js Development',
-    issuer: 'Meta',
-    date: 'June 2023',
-    description: 'Advanced React.js certification covering hooks, state management, performance optimization, and modern React patterns.',
-    image: 'https://images.pexels.com/photos/1181263/pexels-photo-1181263.jpeg?auto=compress&cs=tinysrgb&w=800',
-    credentialUrl: 'https://developers.facebook.com/certification',
-    category: 'web'
+    title: 'JavaScript (Basic) Certificate',
+    issuer: 'Ostad',
+    date: 'April 2025',
+    description: 'Learn the fundamentals of Javascript Programming',
+    image: 'https://github.com/RlM100always/Hisab/blob/main/Screenshot%202025-06-07%20210045.png?raw=true',
+    credentialUrl: 'https://drive.google.com/file/d/1jHRM8wTHbB4sJIIVPGMoOvR7EOJtVSu8/view',
+    category: 'programming'
   }
 ];
 
