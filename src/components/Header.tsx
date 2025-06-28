@@ -52,7 +52,7 @@ export const Header: React.FC = () => {
 
   const navLinks = [
     { id: 'hero', label: 'About' },
-    { id: 'personal-info', label: 'Personal Info' },
+    { id: 'personal-info', label: 'Personal' },
     { id: 'skills', label: 'Skills' },
     { id: 'projects', label: 'Projects' },
     { id: 'certificates', label: 'Certificates' },
@@ -63,13 +63,13 @@ export const Header: React.FC = () => {
   return (
     <header 
       className={`fixed top-0 left-0 right-0 z-50 transition-all duration-300 ${
-        scrolled ? 'bg-slate-900/90 backdrop-blur-md shadow-lg' : 'bg-transparent'
+        scrolled ? 'bg-slate-900/95 backdrop-blur-md shadow-lg border-b border-slate-800' : 'bg-transparent'
       }`}
     >
-      <div className="container mx-auto px-4 md:px-6 py-4 flex items-center justify-between">
+      <div className="container mx-auto px-4 md:px-6 py-3 md:py-4 flex items-center justify-between">
         <a 
           href="#hero" 
-          className="text-2xl font-bold text-white flex items-center gap-2"
+          className="text-xl md:text-2xl font-bold text-white flex items-center gap-2"
           onClick={(e) => {
             e.preventDefault();
             scrollToSection('hero');
@@ -79,7 +79,7 @@ export const Header: React.FC = () => {
         </a>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-6">
+        <nav className="hidden lg:flex items-center space-x-4 xl:space-x-6">
           {navLinks.map(link => (
             <a
               key={link.id}
@@ -104,7 +104,7 @@ export const Header: React.FC = () => {
 
         {/* Mobile Menu Button */}
         <button 
-          className="md:hidden text-white p-2 rounded-md focus:outline-none"
+          className="lg:hidden text-white p-2 rounded-md focus:outline-none hover:bg-slate-800/50 transition-colors duration-200"
           onClick={toggleMenu}
           aria-label="Toggle menu"
         >
@@ -114,16 +114,16 @@ export const Header: React.FC = () => {
 
       {/* Mobile Menu */}
       <div 
-        className={`fixed inset-0 bg-slate-900/95 z-40 md:hidden transition-transform duration-300 ease-in-out transform ${
+        className={`fixed inset-0 bg-slate-900/98 backdrop-blur-md z-40 lg:hidden transition-transform duration-300 ease-in-out transform ${
           isMenuOpen ? 'translate-x-0' : 'translate-x-full'
         }`}
       >
-        <div className="flex flex-col items-center justify-center h-full space-y-8 text-center">
+        <div className="flex flex-col items-center justify-center h-full space-y-6 text-center px-4">
           {navLinks.map((link, index) => (
             <a
               key={link.id}
               href={`#${link.id}`}
-              className={`text-2xl font-medium transition-all duration-300 ${
+              className={`text-xl md:text-2xl font-medium transition-all duration-300 ${
                 activeSection === link.id
                   ? 'text-yellow-400 scale-110'
                   : 'text-gray-300 hover:text-white'
