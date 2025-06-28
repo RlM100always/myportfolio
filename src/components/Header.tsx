@@ -16,7 +16,7 @@ export const Header: React.FC = () => {
       }
 
       // Determine active section
-      const sections = ['hero', 'skills', 'projects', 'certificates', 'achievements', 'contact'];
+      const sections = ['hero', 'personal-info', 'skills', 'projects', 'certificates', 'achievements', 'contact'];
       for (const section of sections.reverse()) {
         const element = document.getElementById(section);
         if (element) {
@@ -52,6 +52,7 @@ export const Header: React.FC = () => {
 
   const navLinks = [
     { id: 'hero', label: 'About' },
+    { id: 'personal-info', label: 'Personal Info' },
     { id: 'skills', label: 'Skills' },
     { id: 'projects', label: 'Projects' },
     { id: 'certificates', label: 'Certificates' },
@@ -78,7 +79,7 @@ export const Header: React.FC = () => {
         </a>
 
         {/* Desktop Navigation */}
-        <nav className="hidden md:flex items-center space-x-8">
+        <nav className="hidden md:flex items-center space-x-6">
           {navLinks.map(link => (
             <a
               key={link.id}

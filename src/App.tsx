@@ -1,6 +1,7 @@
 import React from 'react';
 import { Header } from './components/Header';
 import { Hero } from './components/Hero';
+import { PersonalInfo } from './components/PersonalInfo';
 import { Skills } from './components/Skills';
 import { Projects } from './components/Projects';
 import { Certificates } from './components/Certificates';
@@ -16,6 +17,7 @@ function App() {
       <Header />
       <main className="relative z-10">
         <Hero />
+        <PersonalInfo />
         <Skills />
         <Projects />
         <Certificates />
