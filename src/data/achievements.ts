@@ -52,7 +52,7 @@ export const achievementsData: Achievement[] = [
     links: [
       {
         label: 'University Profile',
-        url: 'https://www.du.ac.bd/'
+        url: 'https://github.com/RlM100always/Hisab/blob/main/image.png?raw=true'
       }
     ]
   },

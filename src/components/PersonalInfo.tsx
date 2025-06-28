@@ -40,7 +40,7 @@ export const PersonalInfo: React.FC = () => {
       gpa: 'Ongoing',
       icon: GraduationCap,
       color: 'from-blue-500 to-cyan-500',
-      image: 'https://images.pexels.com/photos/267885/pexels-photo-267885.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://www.getbengal.com/uploads/story_image/Dhaka-University-3.jpg'
     },
     {
       degree: 'H.S.C. (Science)',
@@ -50,7 +50,7 @@ export const PersonalInfo: React.FC = () => {
       gpa: '5.00/5.00',
       icon: School,
       color: 'from-green-500 to-emerald-500',
-      image: 'https://images.pexels.com/photos/159844/cellular-education-classroom-159844.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://upload.wikimedia.org/wikipedia/commons/d/d8/BAF_Shaheen_College_Kurmitola_College_Building.jpg'
     },
     {
       degree: 'S.S.C. (Science)',
@@ -60,7 +60,7 @@ export const PersonalInfo: React.FC = () => {
       gpa: '5.00/5.00',
       icon: BookOpen,
       color: 'from-purple-500 to-pink-500',
-      image: 'https://images.pexels.com/photos/289737/pexels-photo-289737.jpeg?auto=compress&cs=tinysrgb&w=800'
+      image: 'https://sristy.edu.bd/wp-content/uploads/2024/02/Sristy-Academy.jpeg'
     }
   ];
 
