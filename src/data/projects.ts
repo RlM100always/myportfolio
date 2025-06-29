@@ -30,7 +30,7 @@ export const projectsData: Project[] = [
     technologies: ['Android Studio', 'Java', 'SQLite', 'XML','Retrofit','FCM','Blogger API','ML Kit Firebase'],
     category: 'android',
     liveLink: 'https://play.google.com/store/apps/details?id=com.techtravelcoder.alluniversityinformation',
-    githubLink: 'https://github.com/RlM100always/GlobalUniGuide',
+    githubLink: 'https://github.com/RlM100always/GlobalUniGuide/tree/master',
     videoLink:'https://youtu.be/aCxr5WBagJ8'
   },
   {
@@ -99,6 +99,16 @@ export const projectsData: Project[] = [
     category: 'game',
     githubLink: 'https://github.com/RlM100always/clara-game',
     videoLink :'https://youtu.be/PbrEfD0cK4o'
+  },
+  {
+    title: 'Book Store Management System',
+    shortDescription: 'Python Based CLI Application',
+    description: 'This is a Python-based Command Line Interface (CLI) application that allows users to easily manage a virtual bookstore',
+    image: 'https://github.com/RlM100always/Book-Management-Store-CLI/raw/main/img/Screenshot%202025-03-05%20225953.png',
+    technologies: ['Python','Vscode','Console Programming'],
+    category: 'others',
+    githubLink: 'https://github.com/RlM100always/Book-Management-Store-CLI',
+    videoLink :'https://www.youtube.com/watch?v=cW-CcfUYwAU'
   }
 ];
 
