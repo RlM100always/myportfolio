@@ -109,6 +109,16 @@ export const projectsData: Project[] = [
     category: 'others',
     githubLink: 'https://github.com/RlM100always/Book-Management-Store-CLI',
     videoLink :'https://www.youtube.com/watch?v=cW-CcfUYwAU'
+  },
+   {
+    title: 'Daily Notes Application',
+    shortDescription: 'Notes App with various features , Easy to use',
+    description: 'Organize your thoughts effortlessly with DailyNotes - Easy Notepad, a simple yet powerful note-taking app designed to enhance productivity and streamline your everyday tasks.',
+    image: 'https://github.com/RlM100always/Hisab/blob/main/dailynotes/image.png?raw=true',
+    technologies: ['Kotlin','Vscode','Room Database','Android Studio','XML'],
+    category: 'android',
+    githubLink: 'https://github.com/RlM100always/dailynotesapp',
+    liveLink :'https://play.google.com/store/apps/details?id=com.techtravelcoder.dailynote&pcampaignid=web_share'
   }
 ];
 
