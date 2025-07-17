@@ -119,6 +119,16 @@ export const projectsData: Project[] = [
     category: 'android',
     githubLink: 'https://github.com/RlM100always/dailynotesapp',
     liveLink :'https://play.google.com/store/apps/details?id=com.techtravelcoder.dailynote&pcampaignid=web_share'
+  },
+  {
+    title: 'Group Chatting with File Sharing',
+    shortDescription: 'Group Chatting Application ,Handle Multiple Clients Simultaneously',
+    description: 'A network-based communication system that enables multiple clients to exchange real-time text messages and share files through a central server',
+    image: 'https://github.com/RlM100always/Hisab/blob/main/groupchat/Screenshot%202025-07-17%20193038.png?raw=true',
+    technologies: ['Python','Vscode','Tkinter','Socket Programming'],
+    category: 'others',
+    githubLink: 'https://github.com/RlM100always/CSE-3111-Computer-Networking',
+    videoLink :'https://youtu.be/Imi7Hd67Nqo?si=-SXDimI1-9kPs_pX'
   }
 ];
 
