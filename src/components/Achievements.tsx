@@ -47,7 +47,8 @@ export const Achievements: React.FC = () => {
                           href={link.url}
                           target="_blank"
                           rel="noopener noreferrer"
-                          className="w-full flex items-center justify-center gap-2 px-3 py-2 text-xs md:text-sm bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 rounded-lg font-medium hover:from-yellow-300 hover:to-orange-300 transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-yellow-400/30"
+                          className="w-full flex items-center justify-center gap-2 px-3 py-2.5 text-xs md:text-sm bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 rounded-lg font-bold hover:from-yellow-300 hover:to-orange-300 transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-yellow-400/30"
+
                         >
                           <ExternalLink size={12} className="md:w-3.5 md:h-3.5" />
                           <span className="truncate">{link.label}</span>

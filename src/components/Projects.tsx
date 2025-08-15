@@ -130,7 +130,7 @@ export const Projects: React.FC = () => {
                       href={project.liveLink} 
                       target="_blank" 
                       rel="noopener noreferrer"
-                      className="flex items-center justify-center gap-2 w-full px-3 py-2 text-xs md:text-sm bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 rounded-md font-medium hover:from-yellow-300 hover:to-orange-300 transition-all duration-300 transform hover:scale-[1.02] shadow-md hover:shadow-yellow-400/30"
+className="w-full flex items-center justify-center gap-2 px-3 py-2.5 text-xs md:text-sm bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 rounded-lg font-bold hover:from-yellow-300 hover:to-orange-300 transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-yellow-400/30"
                     >
                       <ExternalLink size={14} className="md:w-4 md:h-4" />
                       Download
@@ -143,7 +143,7 @@ export const Projects: React.FC = () => {
                         href={project.githubLink} 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="flex items-center justify-center gap-2 flex-1 px-3 py-2 text-xs md:text-sm bg-slate-700 text-white rounded-md font-medium hover:bg-slate-600 transition-all duration-300 transform hover:scale-[1.02] border border-slate-600 hover:border-slate-500"
+className="w-full flex items-center justify-center gap-2 px-3 py-2.5 text-xs md:text-sm bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 rounded-lg font-bold hover:from-yellow-300 hover:to-orange-300 transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-yellow-400/30"
                       >
                         <Github size={14} className="md:w-4 md:h-4" />
                         Code
@@ -155,7 +155,7 @@ export const Projects: React.FC = () => {
                         href={project.videoLink} 
                         target="_blank" 
                         rel="noopener noreferrer"
-                        className="flex items-center justify-center gap-2 flex-1 px-3 py-2 text-xs md:text-sm bg-gradient-to-r from-red-500 to-red-600 text-white rounded-md font-medium hover:from-red-400 hover:to-red-500 transition-all duration-300 transform hover:scale-[1.02] shadow-md hover:shadow-red-500/30"
+className="w-full flex items-center justify-center gap-2 px-3 py-2.5 text-xs md:text-sm bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 rounded-lg font-bold hover:from-yellow-300 hover:to-orange-300 transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-yellow-400/30"
                       >
                         <ExternalLink size={14} className="md:w-4 md:h-4" />
                         Video
