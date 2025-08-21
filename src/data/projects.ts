@@ -129,6 +129,17 @@ export const projectsData: Project[] = [
     category: 'others',
     githubLink: 'https://github.com/RlM100always/CSE-3111-Computer-Networking',
     videoLink :'https://youtu.be/Imi7Hd67Nqo?si=-SXDimI1-9kPs_pX'
+  },
+  {
+    title: 'Job Portal Site',
+    shortDescription: 'Django-based job portal web application that connects employers with job seekers.',
+    description: 'A comprehensive Django-based job portal web application that connects employers with job seekers. This application allows employers to post jobs and applicants to search and apply for positions.',
+    image: 'https://github.com/RlM100always/Hisab/raw/main/job_portal/Screenshot%202025-07-26%20170901.png?raw=true',
+    technologies: ['Python','Vscode','Django','Render Deployment','HTML','CSS'],
+    category: 'web',
+    liveLink: 'https://job-portal-4-pxqx.onrender.com/',
+    githubLink: 'https://github.com/RlM100always/job-portal',
+    videoLink :'https://youtu.be/8tTYTCqGpV8'
   }
 ];
 

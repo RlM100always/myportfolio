@@ -133,7 +133,7 @@ export const Projects: React.FC = () => {
 className="w-full flex items-center justify-center gap-2 px-3 py-2.5 text-xs md:text-sm bg-gradient-to-r from-yellow-400 to-orange-400 text-slate-900 rounded-lg font-bold hover:from-yellow-300 hover:to-orange-300 transition-all duration-300 transform hover:scale-105 shadow-md hover:shadow-yellow-400/30"
                     >
                       <ExternalLink size={14} className="md:w-4 md:h-4" />
-                      Download
+                     Live Demo
                     </a>
                   )}
 
