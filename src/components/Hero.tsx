@@ -68,7 +68,7 @@ export const Hero: React.FC = () => {
             
             <div className="animate-in flex flex-col sm:flex-row justify-center lg:justify-start gap-3 md:gap-4 opacity-0 transform translate-y-8 transition-all duration-700">
               <a 
-                href="https://drive.google.com/file/d/1_c5VHsD0ojWLrvEniRDuE5DE8372qLPL/view?usp=drive_link" 
+                href="https://drive.google.com/file/d/1q5UgIpunCJbj9n9fdFoOsWWzav4LEORk/view?usp=sharing" 
                 target="_blank" 
                 rel="noopener noreferrer"
                 className="w-full sm:w-auto px-6 py-3 rounded-full bg-yellow-400 text-slate-900 font-bold transition-transform hover:shadow-lg hover:shadow-yellow-400/20 hover:-translate-y-1 focus:outline-none focus:ring-2 focus:ring-yellow-400 focus:ring-offset-2 focus:ring-offset-slate-900 text-center"
