@@ -31,7 +31,7 @@ export const projectsData: Project[] = [
     category: 'android',
     liveLink: 'https://play.google.com/store/apps/details?id=com.techtravelcoder.alluniversityinformation',
     githubLink: 'https://github.com/RlM100always/GlobalUniGuide/tree/master',
-    videoLink:'https://youtu.be/aCxr5WBagJ8'
+    videoLink:'https://youtu.be/mBkyaR6TuFQ?si=cs9US03fGRLr9Din'
   },
   {
     title: 'SelfMe: Earning & Marketing App',
@@ -42,7 +42,7 @@ export const projectsData: Project[] = [
     category: 'android',
     liveLink: 'https://drive.google.com/file/d/1l129EV-qURme2lS3GFmh675KM0KxHlaa/view',
     githubLink: 'https://github.com/RlM100always/EarningApp',
-    videoLink : 'https://youtu.be/4vCbUB3MeTA?si=aS7J14v4Ht4H1hl0'
+    videoLink : 'https://youtu.be/cVpFwrftsUw?si=qwqTFr1aXgqcWJXh'
   },
   {
     title: 'BD University Information',
@@ -108,7 +108,7 @@ export const projectsData: Project[] = [
     technologies: ['Python','Vscode','Console Programming'],
     category: 'others',
     githubLink: 'https://github.com/RlM100always/Book-Management-Store-CLI',
-    videoLink :'https://www.youtube.com/watch?v=cW-CcfUYwAU'
+    videoLink :'https://youtu.be/TwhX985-gg8?si=TyBt4UDycVraKIRm'
   },
    {
     title: 'Daily Notes Application',
@@ -118,7 +118,8 @@ export const projectsData: Project[] = [
     technologies: ['Kotlin','Vscode','Room Database','Android Studio','XML'],
     category: 'android',
     githubLink: 'https://github.com/RlM100always/dailynotesapp',
-    liveLink :'https://play.google.com/store/apps/details?id=com.techtravelcoder.dailynote&pcampaignid=web_share'
+    liveLink :'https://play.google.com/store/apps/details?id=com.techtravelcoder.dailynote&pcampaignid=web_share',
+    videoLink : 'https://youtu.be/tYXb6lUb0FE?si=5Qu4K4BqqjT2X86y'
   },
   {
     title: 'Group Chatting with File Sharing',
@@ -139,7 +140,7 @@ export const projectsData: Project[] = [
     category: 'web',
     liveLink: 'https://job-portal-4-pxqx.onrender.com/',
     githubLink: 'https://github.com/RlM100always/job-portal',
-    videoLink :'https://youtu.be/8tTYTCqGpV8'
+    videoLink :'https://youtu.be/26VGrxBneRw?si=H1NuZbTu_RfCbswe'
   }
 ];
 
