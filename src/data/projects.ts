@@ -12,7 +12,7 @@ export interface Project {
 
 export const projectsData: Project[] = [
   {
-    title: 'UPBH: Unlimited Pdf Book House',
+    title: 'UPBH: Unlimited Pdf BookHouse',
     shortDescription: 'eBook Library Application',
     description: 'A versatile eBook Library Application with thousands of books across multiple categories with bookmarks,light/dark mode, horizontal and vertical capability features',
     image: 'https://github.com/RlM100always/Hisab/blob/main/img/Screenshot%202025-02-17%20143749.png?raw=true',
