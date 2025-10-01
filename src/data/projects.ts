@@ -91,7 +91,7 @@ export const projectsData: Project[] = [
   },
   // Add some client projects
   {
-    title: 'The Major Mario Game',
+    title: 'The Major Mario Games',
     shortDescription: 'Client Major Mario Game Project',
     description: 'Creating a Super Mario Bros-style game with Clara, where she collects leaves while avoiding and interacting with ghosts.',
     image: 'https://github.com/RlM100always/Hisab/blob/main/Screenshot%202025-06-07%20211941.png?raw=true',
