@@ -42,7 +42,7 @@ export const projectsData: Project[] = [
     category: 'android',
     liveLink: 'https://drive.google.com/file/d/1l129EV-qURme2lS3GFmh675KM0KxHlaa/view',
     githubLink: 'https://github.com/RlM100always/EarningApp',
-    videoLink : 'https://youtu.be/cVpFwrftsUw?si=qwqTFr1aXgqcWJXh'
+    videoLink : 'https://drive.google.com/file/d/1Yb_THyirwuiD-ImN3Bwcv69lmuujvrX8/view?usp=sharing'
   },
   {
     title: 'BD University Information',
@@ -53,7 +53,7 @@ export const projectsData: Project[] = [
     category: 'android',
     liveLink: 'https://www.youtube.com/watch?v=zgWeWTUwv4U',
     githubLink: 'https://github.com/RlM100always/Current-UniversityBD',
-    videoLink:'https://youtu.be/zgWeWTUwv4U?si=g7Py1Ke9ZaMAVxA1',
+    videoLink:'https://drive.google.com/file/d/1SABJnT50-H1Zzricd8TbFLD4DWYMpseN/view?usp=sharing',
   },
   {
     title: 'District Service',
@@ -119,7 +119,7 @@ export const projectsData: Project[] = [
     category: 'android',
     githubLink: 'https://github.com/RlM100always/dailynotesapp',
     liveLink :'https://play.google.com/store/apps/details?id=com.techtravelcoder.dailynote&pcampaignid=web_share',
-    videoLink : 'https://youtu.be/tYXb6lUb0FE?si=5Qu4K4BqqjT2X86y'
+    videoLink : 'https://drive.google.com/file/d/1odUPnFmQ-dppIlhmc23CDLpgVs6mkThW/view?usp=sharing'
   },
   {
     title: 'Group Chatting with File Sharing',
