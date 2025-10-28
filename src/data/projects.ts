@@ -20,7 +20,7 @@ export const projectsData: Project[] = [
     category: 'android',
     liveLink: 'https://play.google.com/store/apps/details?id=com.techtravelcoder.educationalbooks',
     githubLink: 'https://github.com/RlM100always/UPBH-Unlimited-Pdf-Book-House',
-    videoLink:'https://youtu.be/6gyHrhE9dfY?si=-A2nU_bJ5F652Rw_'
+    videoLink:'https://drive.google.com/file/d/1KM-1wsNOjYppvT2ZMYeVspK-fagTX_Na/view?usp=sharing'
   },
   {
     title: 'GlobalUniGuide:Study materials',
@@ -31,7 +31,7 @@ export const projectsData: Project[] = [
     category: 'android',
     liveLink: 'https://play.google.com/store/apps/details?id=com.techtravelcoder.alluniversityinformation',
     githubLink: 'https://github.com/RlM100always/GlobalUniGuide/tree/master',
-    videoLink:'https://youtu.be/mBkyaR6TuFQ?si=cs9US03fGRLr9Din'
+    videoLink:'https://drive.google.com/file/d/1QsAZZL6_ErVE52QN1chiLu8QiVj13lo4/view?usp=sharing'
   },
   {
     title: 'SelfMe: Earning & Marketing App',
@@ -140,7 +140,7 @@ export const projectsData: Project[] = [
     category: 'web',
     liveLink: 'https://job-portal-4-pxqx.onrender.com/',
     githubLink: 'https://github.com/RlM100always/job-portal',
-    videoLink :'https://youtu.be/26VGrxBneRw?si=H1NuZbTu_RfCbswe'
+    videoLink :'https://drive.google.com/file/d/1A4gClbqfhehrr_q8tSPdA34dlpJN7z9P/view?usp=sharing'
   }
 ];
 
