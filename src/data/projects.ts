@@ -108,7 +108,7 @@ export const projectsData: Project[] = [
     technologies: ['Python','Vscode','Console Programming'],
     category: 'others',
     githubLink: 'https://github.com/RlM100always/Book-Management-Store-CLI',
-    videoLink :'https://youtu.be/TwhX985-gg8?si=TyBt4UDycVraKIRm'
+    videoLink :'https://drive.google.com/file/d/1XxRek4U4LUmk5wDt-0Gp_T9BoETawhvb/view?usp=sharing'
   },
    {
     title: 'Daily Notes Application',
